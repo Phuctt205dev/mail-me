@@ -6,17 +6,20 @@
 
 body {
     background-size: cover;
+    padding-top: 70px;
 }
 
 .navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     display: flex;
     flex-direction: row;
-    background-color: rgb(0, 170, 255);
-    opacity: 0.7;
+    background-color: #115D9D;
     justify-content: space-between;
     padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 12px;
+    padding-right: 40px;
 }
 
 .my-name {
@@ -51,6 +54,11 @@ body {
     height: 100%;
     width: 100%;
     text-align: center;
+    transition: background-color 0.15s;
+}
+
+.links-ele:hover {
+    background-color: rgb(122, 197, 234);
 }
 
 .profile-img-mana {
@@ -80,4 +88,161 @@ body {
     padding-left: 50px;
     padding-right: 50px;
     color: white;
+}
+
+.intro {
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bar-contain-html {
+    width: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 36px;
+    margin-bottom: 20px;
+}
+
+.progress-html {
+    width: 200px;
+    background-color: green;
+    border-radius: 36px;
+    text-align: center;
+    color: white;
+}
+
+.bar-contain-css {
+    width: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 36px;
+    margin-bottom: 20px;
+}
+
+.progress-css {
+    width: 175px;
+    background-color: green;
+    border-radius: 36px;
+    text-align: center;
+    color: white;
+}
+
+.bar-contain-cpp {
+    width: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 36px;
+    margin-bottom: 20px;
+}
+
+.progress-cpp {
+    width: 280px;
+    background-color: green;
+    border-radius: 36px;
+    text-align: center;
+    color: white;
+}
+
+.bar-contain-py {
+    width: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 36px;
+    margin-bottom: 20px;
+}
+
+.progress-py {
+    width: 110px;
+    background-color: green;
+    border-radius: 36px;
+    text-align: center;
+    color: white;
+}
+
+.bar-contain-vn {
+    width: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 36px;
+    margin-bottom: 20px;
+}
+
+.progress-vn {
+    width: 300px;
+    background-color: grey;
+    border-radius: 36px;
+    text-align: center;
+    color: white;
+}
+
+.bar-contain-english {
+    width: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 36px;
+    margin-bottom: 20px;
+}
+
+.progress-english {
+    width: 190px;
+    background-color: green;
+    border-radius: 36px;
+    text-align: center;
+    color: white;
+}
+
+.bar-contain-jp {
+    width: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 36px;
+    margin-bottom: 20px;
+}
+
+.progress-jp {
+    width: 110px;
+    background-color: green;
+    border-radius: 36px;
+    text-align: center;
+    color: white;
+}
+
+.linkers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.my-info {
+    color: white;
+    font-size: 20px;
+}
+
+.git-link-storer {
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.linker {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    vertical-align: bottom;
+    border-style: solid;
+    border-radius: 36px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 1px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.linker:hover {
+    background-color: white;
+    color: black;
 }
