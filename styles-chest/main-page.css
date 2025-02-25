@@ -7,6 +7,7 @@
 body {
     background-size: cover;
     padding-top: 50px;
+    background-attachment: fixed;
 }
 
 .navbar {
@@ -92,18 +93,19 @@ body {
 }
 
 .intro {
-    font-weight: 500;
-    font-size: 40px;
+    font-weight: bold;
+    font-size: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .bar-contain-html {
-    width: 300px;
+    width: 280px;
     border-style: solid;
     border-width: 2px;
     border-radius: 36px;
     margin-bottom: 20px;
+    background-color: lightgray;
 }
 
 .progress-html {
@@ -115,11 +117,12 @@ body {
 }
 
 .bar-contain-css {
-    width: 300px;
+    width: 280px;
     border-style: solid;
     border-width: 2px;
     border-radius: 36px;
     margin-bottom: 20px;
+    background-color: lightgray;
 }
 
 .progress-css {
@@ -131,15 +134,16 @@ body {
 }
 
 .bar-contain-cpp {
-    width: 300px;
+    width: 280px;
     border-style: solid;
     border-width: 2px;
     border-radius: 36px;
     margin-bottom: 20px;
+    background-color: lightgray;
 }
 
 .progress-cpp {
-    width: 280px;
+    width: 240px;
     background-color: green;
     border-radius: 36px;
     text-align: center;
@@ -147,11 +151,12 @@ body {
 }
 
 .bar-contain-py {
-    width: 300px;
+    width: 280px;
     border-style: solid;
     border-width: 2px;
     border-radius: 36px;
     margin-bottom: 20px;
+    background-color: lightgray;
 }
 
 .progress-py {
@@ -163,27 +168,29 @@ body {
 }
 
 .bar-contain-vn {
-    width: 300px;
+    width: 280px;
     border-style: solid;
     border-width: 2px;
     border-radius: 36px;
     margin-bottom: 20px;
+    background-color: lightgray;
 }
 
 .progress-vn {
-    width: 300px;
-    background-color: grey;
+    width: 280px;
+    background-color: orangered;
     border-radius: 36px;
     text-align: center;
     color: white;
 }
 
 .bar-contain-english {
-    width: 300px;
+    width: 280px;
     border-style: solid;
     border-width: 2px;
     border-radius: 36px;
     margin-bottom: 20px;
+    background-color: lightgray;
 }
 
 .progress-english {
@@ -195,11 +202,12 @@ body {
 }
 
 .bar-contain-jp {
-    width: 300px;
+    width: 280px;
     border-style: solid;
     border-width: 2px;
     border-radius: 36px;
     margin-bottom: 20px;
+    background-color: lightgray;
 }
 
 .progress-jp {
@@ -211,13 +219,14 @@ body {
 }
 
 .linkers {
+    margin-top: 150px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 .my-info {
     color: white;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .git-link-storer {
@@ -229,7 +238,7 @@ body {
 .linker {
     width: 100%;
     height: 100%;
-    font-size: 20px;
+    font-size: 30px;
     vertical-align: bottom;
     border-style: solid;
     border-radius: 36px;
@@ -246,4 +255,63 @@ body {
 .linker:hover {
     background-color: white;
     color: black;
+}
+
+.linker:active {
+    background-color: grey;
+}
+
+.my-profile {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.my-info {
+    padding-left: 10px;
+    border-left: 3px solid grey;
+}
+
+.my-profile-image {
+    width: 250px;
+    height: 300px;
+}
+
+.name-intro {
+    font-weight: bold;
+    color: green;
+    margin-top: 0pc;
+    margin-bottom: 0px;
+}
+
+.profile-detail {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    border-top: 3px solid grey;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.left-side {
+    border-right: 3px solid grey;
+    padding-right: 10px;
+}
+
+.contact-info {
+    border-bottom: 1px solid grey;
+    font-size: 20px;
+}
+
+.info-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.right-side {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.Education, .Experience, .Job-position {
+    border-bottom: 0.5px solid grey;
 }

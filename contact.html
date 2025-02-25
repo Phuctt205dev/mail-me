@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="styles-chest/Style.css">
     <link rel="stylesheet" href="styles-chest/main-page.css">
   </head>
-  <body style="background-color: #0ca;">
+  <body background="images-storage/mail-pic.jpg">
     <header class="navbar" style="margin-bottom: 20px;">
       <div class="my-name">
         <p class="my-name-inside">Phuc Truong Andas</p>
@@ -19,15 +19,17 @@
       </div>
     </header>
     <form class="form-theme" action="https://formsubmit.co/0c37e664159d86f7da86a63652614d0d" method="POST">
-      <input class="user-name" name="Name: " type="text" placeholder="Enter your name" required>
-      <input class="user-email" name="Email: " type="text" placeholder="Enter your email" required>
-      <select class="user-address" name="Continent: ">
-        <option>Asia</option>
-        <option>Europe</option>
+      <input class="user-name" name="Name" type="text" placeholder="Enter your name" required>
+      <input class="user-email" name="Email" type="text" placeholder="Enter your email" required>
+      <select class="user-address" name="Continent">
+        <option>Viet Nam</option>
+        <option>America</option>
+        <option>Japan</option>
+        <option>Britain</option>
       </select>
       <textarea class="mess" name="Message: " placeholder="Your message"></textarea>
-      <div style="padding-left: 44%; padding-right: 50%;">
-        <button class="submit" type="submit">Submit</button>
+      <div style="display: flex; flex-direction: column; align-items: center;">
+        <button class="submit" type="submit">Send</button>
       </div>
     </form>
   </body>
